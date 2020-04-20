@@ -87,6 +87,7 @@ h1{
 
 p{
 	text-align: center;
+	 justify-content: center;
 	color: #FFFFFF;
 	font-family: Roboto;
 	font-weight: 300;

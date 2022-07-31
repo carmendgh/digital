@@ -60,10 +60,9 @@ strong{
 }
 
 .marquee {
-	border-bottom: 1px solid #161616;
 	color: #161616;
 	font-size: var(--step-0);
-	height: calc(400px + 4rem);
+	height: calc(240px + 4rem);
 	overflow: hidden;
 	position: relative;
 	width: 100vw;

@@ -50,9 +50,10 @@
 				   <div class="lg-col-bg" >
 						<div class="lg-col-ttl2"> Overview </div>
 						<div class="lg-col-wrt2"> 
-							Over this 2-sprint project, we focused on creating a dashboard to help users of Applied better monitor diversity data at organisation level. 
-							Using data to make unbiased decisions was one of the key USPs of Applied. This is why exposing this data and making it digestible to users was prioritised in our roadmap. We were confident that this work would unlock growth in our average contract value. 
-						</div>
+						Aggregated (company-level) data was only offered to a small subset of customers, but the data was not useful enough to our users. Our CS and sales teams were confident that an improvement in its marketability would unlock some growth in average contract value. 
+
+						<br> <br> Using data to help our users make unbiased decisions is one of the key USPs of Applied, so it was my aim to align this to the business goal of increasing the proportion of customers paying for this add-on.
+					</div>
 				</div>
 			</div>		
 		</section>
@@ -89,10 +90,10 @@
 				<div class="col-md-10 col-xs-12">
 				   <div class="lg-col-bg" >
 						<div class="lg-col-ttl2"> Defining the problem </div>
-							<div class="lg-col-wrt2"> 🤕 User Problem: Users have access to job-level reports, which helps them diagnose issues within their pipeline – However it was difficult for them to have an organisational overview and justify using Applied to hire to their bosses/buyer.
+							<div class="lg-col-wrt2"> 🤕 User Problem: Users have access to job-level reports, which helps them diagnose issues within their pipeline. However it is difficult for them to have a company-level overview that justifies why using Applied to hire to their bosses (buyer user).
 								<br><br> 🤞 Outcome: Users can obtain and provide data at a more granular level to allow them to tell stories about how Applied is impacting their hiring process.
 								<br><br> The business outcome we wanted was to increase the proportion of customers paying for this add-on, which meant we also needed to take steps to improve its marketability.
-								<br><br> We drafted a mind map that was used as a tool throughout the discovery phase. This helped us to define better the problem and decide what we were going to focus on during this limited timeline. It started with a central idea – to improve aggregated reporting – and it was broken down into topics and subtopics that we later colour coded to aid comprehension.
+								<br><br> I was involved in producing primary and secondary research. We interviewed three of our own users to better understand their reporting needs, their struggles with the current basic data, and what was expected from a paid add-on feature. We drafted a mind map that was used as a tool throughout the discovery phase. This helped us to define better the problem and decide what we were going to focus on during this limited timeline. 
 							</div>
 						</div>
 				</div>
@@ -115,7 +116,7 @@
 		<div class="row">			
 			<div class="col-md-10 col-xs-12">
 			   <div class="lg-col-bg" >
-					<div class="lg-col-wrt2"> I was involved producing primary and secondary research. We interviewed three of our own users to better understand their reporting needs, and what was expected from a paid add-on feature.
+					<div class="lg-col-wrt2"> We defined the scope to provide descriptive and diagnostic data to users – leaving more predictive and prescriptive data for future iterations.
 						<br><br> Users wanted to be able to pull reports from each department so they could focus their efforts on those teams who needed more help, and be able to group data in a way that helped them tell the stories they needed to tell. They were also looking for data visualisations they could share with their boards. We went through ideas to validate them with these users, sharing sketches of some raw ideas and understanding how they were interacting with different elements.
 					</div>							
 			   </div>
@@ -140,7 +141,7 @@
 		<div class="col-md-10 col-xs-12">
 		   <div class="lg-col-bg" >
 			<div class="lg-col-ttl2"> Ideation & Design </div>
-				<div class="lg-col-wrt2"> To create the data visualisations, I ran an internal ideation session to involve stakeholders and the tech team and we did a few exercises – such as 'crazy 8s'. It was interesting to see the different approaches and where the highlight was for each part of the business. One of the results from this section, was the creation of a top overview section that gathered main figures such as total jobs, or time to hire, as a summary.
+				<div class="lg-col-wrt2"> I ran an internal ideation session to involve stakeholders and we did a few exercises – such as 'crazy 8s'. One of the outcomes of this dynamic was flagging bias risk when displaying granular diversity data, and having an understanding of tech complexity around specific functionality.
 				</div>							
 		   </div>
 		</div>
@@ -179,7 +180,7 @@
 		   <div class="lg-col-bg" >
 				<div class="lg-col-wrt2"> After refining the scope and prioritising what we would build, we decided on these priorities:
 					<ul> 
-						<li> <strong> To give more granular insight, broken down by team and seniority. </strong> With an intuitive date picker tool, and seniority and team filters, users can obtain much more granular data to report on and compare in between dates. Both filters would require the hiring team to enter these when building a role so the data was clean and made it easy to compare between dates.
+						<li> <strong> To give more granular data, broken down by team and seniority. </strong> With an intuitive date picker tool, and seniority and team filters, users can obtain much more granular data to report on and compare in between dates. Both filters would require the hiring team to enter these when building a role so the data was clean and made it easy to compare between dates.
 						<br><br> Applied’s design system had a very basic filter by component, which I redesigned and defined new logic for. We did usability testing for this, and consider consistency across other areas of the platform that could benefit from reusing this component.
 					</ul>
 				</div>							
@@ -207,7 +208,7 @@
 		   <div class="lg-col-bg" >
 				<div class="lg-col-wrt2"> 
 					<ul> 
-						<li> <strong> To improve user experience by not only showing data in a clear way, but also digestible insights and guides on how to read it. </strong> We broke down data to provide insights in three main areas: Pipeline diversity – what’s the diversity of candidates at different stages of the hiring process, Sourcing insights – what outsourcing routes and job boards are bringing in more diverse talent, and Candidate and hiring team experience – how enjoyable or efficient the process is for candidates and hiring team respectively.
+						<li> <strong> To improve user experience by not only showing data in a clear way but also digestible insights and guides on how to read it.</strong> We broke down data to provide insights in three main areas: Pipeline diversity – what’s the diversity of candidates at different stages of the hiring process, Sourcing insights – what outsourcing routes and job boards are bringing in more diverse talent, and Candidate and hiring team experience – how enjoyable or efficient the process is for candidates and hiring team respectively.
 						<br><br> I designed new tooltips that would show up on hover when interacting with the different graphs to display exact percentages.
 					</ul>
 				</div>							
@@ -301,7 +302,13 @@
 	<div class="row">			
 		<div class="col-md-10 col-xs-12">
 		   <div class="lg-col-bg" >
-				<div class="lg-col-wrt2"> As we use HEART metrics as a framework, something we cared a lot about was engagement and task completion. Since we launched, we’ve had an increase of users paying for this add-on, and an increase of users engaging with our new functionalities.
+				<div class="lg-col-wrt2"> Some of the success metrics we defined are:
+					<br> - % of total customer base who take org reporting as an add-on
+					<br> - % of customers in subset (> 1 year AND > 15 roles) who have enabled the add-on
+					<br> - Increase engagement rate of current customers with reports – clicks and time interacting with graphs, refinement tools and exports.
+					<br> - Positive qualitative feedback from users in collected via feedback boards
+					
+					<br><br> Since we launched, we’ve had an increase of users paying for this add-on, and an increase of users engaging with our new functionalities. Global reporting has also been sold at the point of renewal, during general catch up calls and email check-in. Really positive feedback coming through from customers, there’s an indication of even more granular data needed to support the diagnostic value provided to understand where to take action. To be addressed in the next iteration.
 				</div>
 		   </div>
 		</div>
@@ -318,8 +325,8 @@
 		   <div class="lg-col-bg" >
 				<div class="lg-col-wrt3"> 
 					<strong> Role </strong> Lead Product Designer – UX, UI <br>
-					<strong> Responsibilities </strong> I contributed to primary and secondary research, concept development, and I did all user interface design. I led the visual design phase by defining the style and updating components in the design system when needed.
-					<strong> Launch date </strong> February 2022
+					<strong> Responsibilities </strong> Primary and secondary research, concept development, and user interface design. 
+					<br><strong> Launch date </strong> February 2022
 					</div>
 		   </div>
 		</div>
